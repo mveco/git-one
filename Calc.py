@@ -11,5 +11,7 @@ elif oper == "-":
     print(str(o1) + " - " + str(o2) + " = " + str(o1-o2))
 elif oper == "*":
     print(str(o1) + " * " + str(o2) + " = " + str(o1*o2))
+if oper == "/":
+    print(str(o1) + " / " + str(o2) + " = " + str(o1/o2))
 else:
     print("Invalid operator")
